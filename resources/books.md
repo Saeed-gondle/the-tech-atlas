@@ -32,7 +32,7 @@
 | [Crafting Interpreters](https://craftinginterpreters.com/) — Robert Nystrom | Build two interpreters and understand parsing, bytecode, and VMs. Free online. | Beginner → intermediate |
 | [Refactoring](https://martinfowler.com/books/refactoring.html) — Martin Fowler | A catalogue of behaviour-preserving transformations and when to apply them. | Intermediate |
 | [Working Effectively with Legacy Code](https://www.oreilly.com/library/view/working-effectively-with/0131177052/) — Michael Feathers | How to introduce tests and change code you are afraid to touch. | Intermediate |
-| [A Philosophy of Software Design](https://www.goodreads.com/book/show/39996759-a-philosophy-of-software-design) — John Ousterhout | Deep modules, information hiding, and complexity as the enemy. | Beginner → intermediate |
+| [A Philosophy of Software Design](http://web.stanford.edu/~ouster/cgi-bin/book.php) — John Ousterhout | Deep modules, information hiding, and complexity as the enemy. | Beginner → intermediate |
 | [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) — Hunt and Thomas | Durable habits: automation, orthogonality, and thinking about trade-offs. | Beginner |
 | [Accelerate](https://itrevolution.com/product/accelerate/) — Forsgren, Humble, and Kim | The research linking delivery practices to organisational performance. | Intermediate |
 
