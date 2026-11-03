@@ -93,7 +93,7 @@ cold code → interpreter → profile → hot code → JIT → machine code
 - LLVM, [Kaleidoscope tutorial](https://llvm.org/docs/tutorial/).
 - V8, [Ignition and TurboFan](https://v8.dev/blog/ignition-interpreter).
 - ECMAScript, [Language specification](https://tc39.es/ecma262/).
-- Aho, Lam, Sethi, and Ullman, [Compilers: Principles, Techniques, and Tools](https://suif.stanford.edu/dragonbook/).
+- Aho, Lam, Sethi, and Ullman, [Compilers: Principles, Techniques, and Tools](https://www.pearson.com/en-us/subject-catalog/p/compilers-principles-techniques-and-tools/P200000003484).
 
 > **Next:** [Memory management](./memory-management.md) explains where the data lives while the program runs.
 
