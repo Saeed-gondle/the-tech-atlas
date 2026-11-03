@@ -1,0 +1,60 @@
+name: Propose an article
+description: Pitch a new Tech Atlas article with an outline and primary sources
+title: "[Article]: "
+labels: ["article proposal"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Proposed title
+      placeholder: How CRDTs converge without a coordinator
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: One-sentence definition
+      description: Explain the concept without jargon. This becomes the article's opening line.
+      placeholder: A CRDT is a data type that can be merged across replicas without coordination.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What will the article cover, and what will it deliberately omit?
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline
+      description: Include the mental model, mechanism, worked example, trade-offs, failure modes, and three understanding questions.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Link at least two specifications, papers, or first-party documentation pages. Explain what each supports.
+    validations:
+      required: true
+  - type: input
+    id: diagram
+    attributes:
+      label: Diagram plan
+      description: What will the Mermaid or original SVG diagram show?
+      placeholder: Two replicas receiving concurrent edits, then merging to the same state.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is an original synthesis, not a copied article or an unedited AI-generated draft.
+          required: true
+        - label: The diagram will be original or correctly licensed.
+          required: true
+        - label: I have read the article contract in CONTRIBUTING.md.
+          required: true
