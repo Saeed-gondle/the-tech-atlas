@@ -1,0 +1,50 @@
+name: Suggest an entry
+description: Propose a well-sourced addition or correction
+title: "[Entry]: "
+labels: ["entry suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Project, article, or resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: Direct link to the official site, repository, documentation, or paper.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      placeholder: e.g. Local databases
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be included?
+      description: One or two sentences. What does it replace, teach, or make possible?
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Limitations and evidence
+      description: Licence, VRAM, free-tier limit, benchmark, maintenance status, or other caveat. Add the source you checked.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is an official link and I have no undisclosed relationship with the project.
+          required: true
+        - label: I have read the contribution guidelines.
+          required: true

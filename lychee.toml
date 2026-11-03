@@ -1,0 +1,15 @@
+# Lychee configuration
+max_retries = 2
+timeout = 25
+accept = [200, 206, 403, 429]
+
+# Sites that aggressively block automated clients. Keep this list short and justified.
+exclude = [
+  "^https://twitter\\.com/",
+  "^https://x\\.com/",
+  "^https://www\\.linkedin\\.com/",
+  "^https://instagram\\.com/",
+  "^https://www\\.instagram\\.com/",
+  "^https://discord\\.gg/",
+  "^https://discord\\.com/invite/",
+]
