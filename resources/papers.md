@@ -26,7 +26,7 @@
 |---|---|---|
 | Amazon Aurora | Log-structured storage and separating compute from durability. | [Amazon Science](https://www.amazon.science/publications/amazon-aurora-design-considerations-for-high-throughput-cloud-native-relational-databases) |
 | Snowflake | Storage/compute separation and multi-cluster warehouses. | [PDF](https://www.cs.cmu.edu/~15721-f24/papers/Snowflake.pdf) |
-| A Comprehensive Study of CRDTs | The convergence model behind local-first collaboration. | [HAL](https://inria.hal.science/inria-00555588/document) |
+| Conflict-free Replicated Data Types: An Overview | The convergence model behind local-first collaboration. | [arXiv](https://arxiv.org/abs/1805.06358) |
 | HNSW | The graph index behind many vector databases. | [arXiv](https://arxiv.org/abs/1603.09320) |
 
 ## AI and machine learning
